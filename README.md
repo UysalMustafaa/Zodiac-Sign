@@ -1,4 +1,4 @@
-# com
+# Burç Rehberi
 
 Burç Rehberi Uygulaması
 
