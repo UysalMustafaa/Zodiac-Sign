@@ -9,6 +9,7 @@ class   MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: "Burç Rehberi",
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
