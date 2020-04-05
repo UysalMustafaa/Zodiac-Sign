@@ -3,7 +3,7 @@ import 'package:com/utils/strings.dart';
 import 'package:flutter/material.dart';
 
 class BurcListesi extends StatelessWidget {
-  List<Burc> tumBurclar;
+  static List<Burc> tumBurclar;
 
   @override
   Widget build(BuildContext context) {
