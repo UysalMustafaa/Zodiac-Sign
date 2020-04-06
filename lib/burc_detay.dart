@@ -46,7 +46,7 @@ class BurcDetay extends StatelessWidget {
               ),
               child: SingleChildScrollView(
 
-                child: Text(secilenBurc.burcDetay, style: TextStyle(fontSize: 18, color: Colors.black)
+                child: Text(secilenBurc.burcDetay, style: TextStyle(fontSize: 24, color: Colors.black)
                 ),
             ),
 
