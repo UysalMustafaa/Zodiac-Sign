@@ -38,15 +38,15 @@ class BurcDetay extends StatelessWidget {
           SliverToBoxAdapter(
 
             child: Container(
-              margin: EdgeInsets.all(8),
-              padding: EdgeInsets.all(8),
+              margin: EdgeInsets.all(6),
+              padding: EdgeInsets.all(6),
               decoration: BoxDecoration(
                 color: Colors.pink.shade400,
                 borderRadius: BorderRadius.all(Radius.circular(10)),
               ),
               child: SingleChildScrollView(
 
-                child: Text(secilenBurc.burcDetay, style: TextStyle(fontSize: 18, color: Colors.black)
+                child: Text(secilenBurc.burcDetay, style: TextStyle(fontSize: 24, color: Colors.black)
                 ),
             ),
 
