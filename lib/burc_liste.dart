@@ -7,7 +7,7 @@ class BurcListesi extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Burc> tumBurclar = veriKaynaginiHazirla();
+    tumBurclar = veriKaynaginiHazirla();
 
     return Scaffold(
       appBar: AppBar(
@@ -21,11 +21,11 @@ class BurcListesi extends StatelessWidget {
     List<Burc> burclar = [];
 
     for (int i = 0; i < 12; i++) {
-      String kucukResim = Strings.BURC_ADLARI[i].toLowerCase() +
-          "${i + 1}.png"; // Koc -> koc1.png
+      String kucukResim =
+          Strings.BURC_ADLARI[i].toLowerCase() + "${i + 1}.png"; //Koc->koc1.png
       String buyukResim = Strings.BURC_ADLARI[i].toLowerCase() +
           "_buyuk" +
-          "${i + 1}.png"; // Koc -> koc _buyuk1.png
+          "${i + 1}.png"; //Koc->koc_buyuk1.png
 
       Burc eklenecekBurc = Burc(
           Strings.BURC_ADLARI[i],
@@ -56,8 +56,8 @@ class BurcListesi extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ListTile(
-          onTap: () => Navigator.pushNamed(context, "/burcDetay/$index"),
-          //onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => BurcDetay())),
+          onTap: ()=> Navigator.pushNamed(context, "/burcDetay/$index"),
+          //onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>BurcDetay())),
           leading: Image.asset(
             "images/" + oanListeyeEklenenBurc.burcKucukResim,
             width: 64,
@@ -70,7 +70,6 @@ class BurcListesi extends StatelessWidget {
                 fontWeight: FontWeight.w400,
                 color: Colors.pink.shade500),
           ),
-
           subtitle: Padding(
             padding: const EdgeInsets.symmetric(vertical: 8),
             child: Text(
@@ -81,8 +80,7 @@ class BurcListesi extends StatelessWidget {
                   color: Colors.black38),
             ),
           ),
-
-          trailing: Icon(Icons.arrow_forward_ios, color: Colors.pink,),
+          trailing: Icon(Icons.arrow_forward_ios, color:Colors.pink),
         ),
       ),
     );
