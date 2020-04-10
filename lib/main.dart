@@ -1,10 +1,11 @@
+import 'package:com/testlib.dart';
 import 'package:flutter/material.dart';
 import 'burc_detay.dart';
 import 'burc_liste.dart';
 
-void main () => runApp(MyApp());
+void main () => runApp(MyApps());
 
-class   MyApp extends StatelessWidget {
+class  MyApps extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
