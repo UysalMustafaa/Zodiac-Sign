@@ -53,7 +53,7 @@ class BurcDetayState extends State<BurcDetay> {
           SliverAppBar(
             expandedHeight: 250,
             pinned: true,
-            backgroundColor: baskinRenk != null ? baskinRenk : Colors.orange
+            backgroundColor: baskinRenk != null ? baskinRenk : Colors.pink,
             flexibleSpace: FlexibleSpaceBar(
               background: Image.asset(
                 "images/" + secilenBurc.burcBuyukResim,
