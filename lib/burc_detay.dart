@@ -69,11 +69,11 @@ class BurcDetayState extends State<BurcDetay> {
               padding: EdgeInsets.all(8),
               decoration: BoxDecoration(
                 color: Colors.pink.shade50,
-                borderRadius: BorderRadius.all(Radius.circular(10)),
+                borderRadius: BorderRadius.all(Radius.circular(20)),
               ),
               child: SingleChildScrollView(
                 child: Text(secilenBurc.burcDetay,
-                    style: TextStyle(fontSize: 18, color: Colors.black)),
+                    style: TextStyle(fontSize: 16, color: Colors.blue)),
               ),
             ),
           ),
