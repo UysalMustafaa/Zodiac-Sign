@@ -1,6 +1,6 @@
 # Burç Rehberi
 
-Burç Rehberi Uygulaması
+
 
 ## Getting Started
 
