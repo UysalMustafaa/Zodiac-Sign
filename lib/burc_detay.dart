@@ -65,8 +65,8 @@ class BurcDetayState extends State<BurcDetay> {
           ),
           SliverToBoxAdapter(
             child: Container(
-              margin: EdgeInsets.all(8),
-              padding: EdgeInsets.all(8),
+              margin: EdgeInsets.all(6),
+              padding: EdgeInsets.all(6),
               decoration: BoxDecoration(
                 color: Colors.pink.shade50,
                 borderRadius: BorderRadius.all(Radius.circular(10)),
