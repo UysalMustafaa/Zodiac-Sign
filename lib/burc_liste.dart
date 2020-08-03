@@ -11,7 +11,7 @@ class BurcListesi extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Burç Rehberi"),
+        title: Text("Burç Rehberleri"),
       ),
       body: listeyiHazirla(),
     );
