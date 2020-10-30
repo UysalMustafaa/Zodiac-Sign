@@ -1,5 +1,9 @@
 class Burc {
-  
+  String _burcAdi;
+  String _burcTarihi;
+  String _burcDetay;
+  String _burcKucukResim;
+  String _burcBuyukResim;
 
   Burc(this._burcAdi, this._burcTarihi, this._burcDetay, this._burcKucukResim,
       this._burcBuyukResim);
