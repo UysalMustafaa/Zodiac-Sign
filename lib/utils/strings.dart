@@ -2,16 +2,16 @@ class Strings {
   static const String APP_NAME = "Burç Rehberi";
 
   static const List<String> BURC_ADLARI = [
-    "Koc",
+    "Koç",
     "Boga",
     "Ikizler",
-    "Yengec",
+    "Yengeç",
     "Aslan",
-    "Basak",
+    "Başak",
     "Terazi",
     "Akrep",
     "Yay",
-    "Oglak",
+    "Oğlak",
     "Kova",
     "Balik"
   ];
