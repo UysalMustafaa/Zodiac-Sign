@@ -1,9 +1,3 @@
-import 'package:com/testlib.dart';
-import 'package:flutter/material.dart';
-import 'burc_detay.dart';
-import 'burc_liste.dart';
-
-void main () => runApp(MyApps());
 
 class  MyApps extends StatelessWidget {
   @override
