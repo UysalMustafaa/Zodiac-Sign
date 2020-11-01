@@ -1,8 +1,3 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:palette_generator/palette_generator.dart';
-import 'models/burc.dart';
-import 'burc_liste.dart';
 
 class BurcDetay extends StatefulWidget {
   int gelenIndex;
