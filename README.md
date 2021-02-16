@@ -1,3 +1,1 @@
-# Burç Rehberi
-
-Burç Rehberi Uygulaması
+# Zodiac Sign Application
