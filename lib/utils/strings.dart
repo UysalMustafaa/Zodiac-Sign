@@ -221,8 +221,8 @@ class Strings {
 
   "\t Yönetici yıldızınız: Neptün\n\n"
   "\t Grubunuz: Su\n\n"
-  "\t Uğurlu gününüz: Perşembe\n\n"
-  "\t Uğurlu sayınız: 7\n\n"
+  "\t Uğurlu gününüz: Çarşamba\n\n"
+  "\t Uğurlu sayınız: 10\n\n"
   "\t  Uğurlu renginiz: Turkuaz ve yeşil\n\n"
   "\t Uğurlu taşlarınız: Turkuaz, Ametist, Pembe Kuvars\n\n"
   "\t Uğurlu çicekleriniz: İnci çiçeği, zambak\n\n"
