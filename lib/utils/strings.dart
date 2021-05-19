@@ -79,7 +79,7 @@ class Strings {
   "\tAnlaştığınız burçlar: Terazi, Kova, Aslan\n\n"
   "\tAnlaşamadığınız burçlar: Başak, Yay\n\n"
   "\tBaşarılı olacağınız meslekler: Yazarlık, bankacılık, avukatlık, gazetecilik, edebiyatçı\n\n"
-  "\tBurcunuzdan olan ünlüler: Adile Naşit, Bülent Ecevit, John F. Kennedy, John Wayne, Schumann\n\n",
+  "\tBurcunuzdan olan ünlüler: Adile Naşit, Bülent Ecevit, John F. Kennedy, Haluk Levent, Acun Ilıcalı, John Wayne, Schumann\n\n",
 
 
 
@@ -90,7 +90,7 @@ class Strings {
   "\tUğurlu sayınız: 2\n\n"
   "\tUğurlu renginiz: Beyaz\n\n"
   "\tUğurlu taşlarınız: Ametist, Pembe kuvars\n\n"
-  "\tUğurlu çicekleriniz: Nilüfer, beyaz gül, zambak\n\n"
+  "\tUğurlu çicekleriniz: Nilüfer,Papatya, beyaz gül, zambak\n\n"
   "\tUğurlu kokularınız: Misk, müge, leylak\n\n"
   "\tOlumlu özelliğiniz: Sabırlı olmak\n\n"
   "\tOlumsuz özelliğiniz: Dikkatsizlik\n\n"
