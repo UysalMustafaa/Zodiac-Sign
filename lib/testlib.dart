@@ -1,7 +1,3 @@
-// Copyright 2018 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'dart:async';
 import 'dart:math' as math;
 
@@ -16,9 +12,9 @@ const Color _kSelectionRectangleBackground = Color(0x15000000);
 const Color _kSelectionRectangleBorder = Color(0x80000000);
 const Color _kPlaceholderColor = Color(0x80404040);
 
-/// The main Application class.
+
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -35,7 +31,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/// The home page for this example app.
+
 @immutable
 class ImageColors extends StatefulWidget {
   /// Creates the home page.
@@ -46,13 +42,13 @@ class ImageColors extends StatefulWidget {
     this.imageSize,
   }) : super(key: key);
 
-  /// The title that is shown at the top of the page.
+ 
   final String title;
 
-  /// This is the image provider that is used to load the colors from.
+ 
   final ImageProvider image;
 
-  /// The dimensions of the image.
+ 
   final Size imageSize;
 
   @override
@@ -98,7 +94,7 @@ class _ImageColorsState extends State<ImageColors> {
     });
   }
 
-  // Called as the user drags: just updates the region, not the colors.
+ 
   void _onPanUpdate(DragUpdateDetails details) {
     setState(() {
       currentDrag += details.delta;
@@ -106,8 +102,7 @@ class _ImageColorsState extends State<ImageColors> {
     });
   }
 
-  // Called if the drag is canceled (e.g. by rotating the device or switching
-  // apps)
+
   void _onPanCancel() {
     setState(() {
       dragRegion = null;
@@ -115,7 +110,7 @@ class _ImageColorsState extends State<ImageColors> {
     });
   }
 
-  // Called when the drag ends. Sets the region, and updates the colors.
+ 
   Future<void> _onPanEnd(DragEndDetails details) async {
     Rect newRegion =
         (Offset.zero & imageKey.currentContext.size).intersect(dragRegion);
